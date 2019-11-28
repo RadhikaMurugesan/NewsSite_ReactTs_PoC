@@ -8,6 +8,7 @@ export default interface SourceCardObject{
     url: string,
     category: string,
     language: string,
-    country: string
+    country: string,
+    bgColor: string
 
 }

@@ -43,7 +43,11 @@ export default class Home extends Component<{}, State> {
             <>
             <Header changeCountry = {this.changeCountry}/>
            {this.state.sourceCardData.map((sourceObject) => 
-           <SourceCard sourceCardData ={sourceObject}/>
+           <Container>
+           <Row>
+               <SourceCard sourceCardData ={sourceObject}/>
+           </Row>
+           </Container>
            )}
             
             

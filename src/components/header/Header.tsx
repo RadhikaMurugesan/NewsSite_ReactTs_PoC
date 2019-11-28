@@ -8,7 +8,7 @@ interface ClickProps {
 }
 
 export default function Header  (Props: ClickProps) {
-    const [country, setCountry] = useState<string>('IN'); 
+    const [country, setCountry] = useState<string>('in'); 
     return (
         <div className="topnav"> 
         <h5>MyNews</h5> 
